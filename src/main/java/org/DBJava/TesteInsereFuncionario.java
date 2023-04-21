@@ -21,7 +21,7 @@ public class TesteInsereFuncionario {
             System.out.print(message);
             nameEmployee = readInputs.nextLine();
             if (nameEmployee.isEmpty()) {
-                System.out.println("Não pode inserir nada.\n");
+                System.out.println("Não pode ficar sem inserir.\n");
                 continue;
             }
             break;
